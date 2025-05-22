@@ -1,4 +1,4 @@
-#***Welcome to my game "KNIGHTFALL" made by RONIT BUTOLIA for GameDevelopment Club Secy Task***
+#Welcome to my game "KNIGHTFALL" made by RONIT BUTOLIA for GameDevelopment Club Secy Task
 
 
 ## Contribution
