@@ -2,8 +2,9 @@
 
 
 ### Contribution
-I made the code and the logic behind all animations, UI, player movements.
+I made the code and the logic behind all animations, UI, player movements. I made the pausemenu (in both levels)
 I made the story for the game.
+
 
 ###Controls
 > **"A"** = move left
