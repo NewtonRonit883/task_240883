@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: c80cb4e427b4a204e9f23cd761d7e27a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPEECH_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 372
+        width: 419
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79fb95040e1c8c498e3152dd797e9f5
+      internalID: -682667133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPEECH_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 149
+        width: 383
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4331b5494a37c7a4b8e7c269ea1d4087
+      internalID: 676313121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPEECH_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 82
+        width: 765
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0288a33c08c8b4db930dafe2086a9d
+      internalID: 1784171868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SPEECH_0: -682667133
+      SPEECH_1: 676313121
+      SPEECH_10: -1644739987
+      SPEECH_11: 1172519372
+      SPEECH_12: -48959321
+      SPEECH_13: 1119145171
+      SPEECH_14: -1152825200
+      SPEECH_15: 2087588039
+      SPEECH_16: -992457594
+      SPEECH_17: -401929518
+      SPEECH_18: -380429523
+      SPEECH_19: -1324354052
+      SPEECH_2: 1784171868
+      SPEECH_20: 1312467998
+      SPEECH_21: -1856272471
+      SPEECH_22: -155285567
+      SPEECH_23: 1775266082
+      SPEECH_24: -858085317
+      SPEECH_25: -1258821408
+      SPEECH_26: -290895702
+      SPEECH_27: 592552427
+      SPEECH_28: 1433413543
+      SPEECH_29: 1622293458
+      SPEECH_3: 1977839711
+      SPEECH_30: -1342242250
+      SPEECH_31: -639833674
+      SPEECH_32: -1925080340
+      SPEECH_33: 128089543
+      SPEECH_34: 1068413214
+      SPEECH_35: 1027808060
+      SPEECH_36: -778959149
+      SPEECH_37: 1674322776
+      SPEECH_38: 110238126
+      SPEECH_39: -278116984
+      SPEECH_4: 1140386307
+      SPEECH_5: 312090300
+      SPEECH_6: -1454927567
+      SPEECH_7: -692922320
+      SPEECH_8: -1680080065
+      SPEECH_9: -1835557082
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
