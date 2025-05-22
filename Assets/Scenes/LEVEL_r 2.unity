@@ -1751,7 +1751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slimeprefab: {fileID: 4540654567452550898, guid: d1c27605ed519d543b9e7bb4b584f5f0, type: 3}
   interval: 7
-  max_slimes: 1
+  max_slimes: 12
   count: 0
 --- !u!114 &859337711
 MonoBehaviour:
@@ -4005,7 +4005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68dd67dcebcd1ef47812a2941e49efcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 200
+  maxHP: 2000
   kb_force: 5
 --- !u!114 &1973868226
 MonoBehaviour:

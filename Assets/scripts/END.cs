@@ -6,7 +6,7 @@ public class END : MonoBehaviour
     // Start is called before the first frame update
     public Transform player;
     public Transform cave;
-
+    public GameObject end;
 
     void Start()
     {
@@ -14,7 +14,7 @@ public class END : MonoBehaviour
     }
     void Black()
     {
-        GameObject.FindGameObjectWithTag("end").SetActive(false);
+        end.SetActive(false);
     }    
     void Update()
     {
@@ -56,11 +56,11 @@ public class END : MonoBehaviour
 
         if (!FindObjectOfType<AudioManager>().isPlaying("win"))
             FindObjectOfType<AudioManager>().Play("win");
-        GameObject.FindGameObjectWithTag("end").SetActive(true);
-        GameObject.FindGameObjectWithTag("end").GetComponent<Animator>().SetBool("End", true);
+        end.SetActive(true);
+        end.GetComponent<Animator>().SetBool("End", true);
 
 
-        Invoke("THE_END", 2f);
+        Invoke("THE_END", 1.75f);
     }
     public void THE_END()
     {

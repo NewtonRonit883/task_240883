@@ -8,20 +8,20 @@ public class ENDBOSS : MonoBehaviour
     
     public Transform Audio;
     // Start is called before the first frame update
-    int count = 0;
+    int count1 = 0;
     void Start()
     {
         
     }
     void Update()
     {
-        if (check_slimes() && count==0 && FindObjectOfType<slime_spawnerlv2>().count!=12 && Time.timeScale==1f)
+        if (check_slimes() && count1==0 && FindObjectOfType<slime_spawnerlv2>().count==12 && Time.timeScale==1f)
         {
             slime_boss.SetActive(true);
             Audio.GetComponent<AudioSource>().Stop();
             FindObjectOfType<AudioManager>().Play("BOSS");
 
-            count++;
+            count1++;
         }
     }   
     private bool check_slimes()

@@ -1112,6 +1112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1691062306}
   cave: {fileID: 460950886}
+  end: {fileID: 788057178}
 --- !u!4 &493261474
 Transform:
   m_ObjectHideFlags: 0
