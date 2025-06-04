@@ -46,7 +46,7 @@ public class pausemenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         paused = false;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene("UI");
     }
     public void click()
     {

@@ -20,7 +20,7 @@ public class slime_spawnerlv2 : MonoBehaviour
 
         InvokeRepeating("SpawnSlime", 0, interval);
 
-        Invoke("Slime_Pattern", interval * 2);
+        Invoke("Slime_Pattern2", interval * 2);
         
     }
     void Slime_Pattern2()

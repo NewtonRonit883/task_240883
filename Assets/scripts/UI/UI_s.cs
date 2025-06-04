@@ -35,6 +35,10 @@ public class UI_s : MonoBehaviour
         transform.Find("mainmenu").transform.Find("creds").gameObject.SetActive(false);
         transform.Find("Buttons").gameObject.SetActive(true);
     }
+    public void click()
+    {
+        FindObjectOfType<AudioManager>().Play("Click");
+    }
 
     // Update is called once per frame
 

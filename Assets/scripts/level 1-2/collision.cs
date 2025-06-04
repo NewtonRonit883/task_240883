@@ -36,6 +36,7 @@ public class collision : MonoBehaviour
     }
     private void GAMEOVER()
     {
+        levelmanager.lastlvname = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene("GAMEOVER");
     }
 }

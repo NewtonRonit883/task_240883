@@ -33,7 +33,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.78, y: -1.43, z: -9.994764}
-  m_LocalScale: {x: 7, y: 7, z: 1}
+  m_LocalScale: {x: 8, y: 8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -235,7 +235,7 @@ MonoBehaviour:
   att_range: 10
   right_end: {fileID: 0}
   left_end: {fileID: 0}
-  offset: {x: 2.5, y: 0, z: 0}
+  offset: {x: 2.7, y: 0, z: 0}
 --- !u!114 &5655885358713892355
 MonoBehaviour:
   m_ObjectHideFlags: 0

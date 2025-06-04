@@ -17,6 +17,7 @@ public class GAMEMANAGER : MonoBehaviour
     }
     public void RESTART()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+        SceneManager.LoadScene(levelmanager.lastlvname);
+        
     }
 }
