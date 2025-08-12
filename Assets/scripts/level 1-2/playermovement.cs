@@ -40,6 +40,18 @@ public class playermovement : MonoBehaviour
     }
 
     // Update is called once per frame
+    public void LEFT_BUTTON()
+    {
+        dir = -1f;
+    }
+    public void RIGHT_BUTTON()
+    {
+        dir = 1f;
+    }
+    public void STOP_RUNNING()
+    {
+        dir = 0f;
+    }
     void Update()
     {
         dir = Input.GetAxis("Horizontal");
@@ -61,18 +73,9 @@ public class playermovement : MonoBehaviour
         if (!grounded) AudioManager.Stop("running");
         if (Input.GetButtonDown("Jump") && grounded)
         {
-
-
-
-            rigidb.velocity = new Vector2(rigidb.velocity.x, jump);
-
-            grounded = false;
-            animator.SetBool("grounded", grounded);
-            animator.SetBool("Jump", true);
-            AudioManager.Play("jump");
-
+            Jump();
         }
-        if (Input.GetKey("c"))
+        if (Input.GetKeyDown("c"))
         {
             if (!Ckey) { Ckey = true; animator.SetBool("crouch", Ckey); }
             else { Ckey = false; animator.SetBool("crouch", Ckey); }
@@ -97,6 +100,19 @@ public class playermovement : MonoBehaviour
         float movex = dir * speed;
         rigidb.velocity = new Vector2(movex * Time.fixedDeltaTime, rigidb.velocity.y);
 
+    }
+    public void Jump()
+    {
+        if (grounded)
+        {
+            rigidb.velocity = new Vector2(rigidb.velocity.x, jump);
+
+            grounded = false;
+            animator.SetBool("grounded", grounded);
+            animator.SetBool("Jump", true);
+            AudioManager.Play("jump");
+        }
+        
     }
     void Flip(float move)
     {
@@ -144,7 +160,7 @@ public class playermovement : MonoBehaviour
     }
     
 
-    void Attack()
+    public void Attack()
     {
         animator.SetTrigger("Attack");
         Collider2D[] Enemies = Physics2D.OverlapCircleAll(atk_pt, atk_r, enemyLayers);

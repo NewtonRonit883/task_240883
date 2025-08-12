@@ -1459,7 +1459,7 @@ SpriteRenderer:
   m_Size: {x: 0.27, y: 0.45}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1434500376
@@ -1510,8 +1510,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bff4b23d4a1d6a4caea09160f70693b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  atk_pt1: {fileID: 0}
+  atk_pt2: {fileID: 0}
+  atk_r: 1
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
   speed: 250
   jump: 14
+  health: 5
+  atk_Damage: 100
 --- !u!61 &1434500379
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2327,7 +2335,6 @@ MonoBehaviour:
   right_end: {fileID: 1710849671}
   left_end: {fileID: 437635149}
   offset: {x: 2.5, y: 0, z: 0}
-  p_m: {fileID: 0}
 --- !u!95 &1962545044
 Animator:
   serializedVersion: 5
@@ -2688,7 +2695,7 @@ SpriteRenderer:
   m_Size: {x: 1000, y: 5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2141219179
