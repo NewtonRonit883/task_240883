@@ -2,13 +2,13 @@
 
 
 ### Contribution
-I made the code and the logic behind all animations, UI, player movements. I made the pausemenu (in both levels)
-I made the story for the game.
+I made the code and the logic behind all animations, UI, player movements. 
+I made the pausemenu (in both levels) and the story for the game.
 
 
 ###Controls
-> **"A"** = move left
-> **"D"** = move right
+> **"A/left arrow"** = move left
+> **"D/right arrow"** = move right
 > **"E"** = attack
 > **"Space"** = Jump
 > **Esc Key or Pause button** = Pause/Resume the game
